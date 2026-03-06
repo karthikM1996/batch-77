@@ -116,6 +116,7 @@ public class logintoproject {
 		WebElement logout = driver.findElement(By.xpath("//div[@class='dropdown-item logout']"));
 		//act.moveToElement(logout).click().perform();
 		wutil.tomouseover(driver,logout).click();
+		System.out.println("hi");
 		driver.quit();
 		
 		
